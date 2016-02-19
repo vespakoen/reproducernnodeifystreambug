@@ -12,7 +12,7 @@ import React, {
 } from 'react-native';
 
 import 'rn-nodeify/shim';
-import 'babel-helpers.js';
+import './babel-helpers.js';
 import LocalStore from 'schema-mapper-store';
 console.log(LocalStore.create('testing'));
 
