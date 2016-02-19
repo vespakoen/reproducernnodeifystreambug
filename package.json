@@ -1,0 +1,27 @@
+{
+  "name": "reproducernnodeifystreambug",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "postinstall": "./node_modules/.bin/rn-nodeify --install stream,events,buffer --hack"
+  },
+  "dependencies": {
+    "JSONStream": "^1.0.7",
+    "buffer": "^3.6.0",
+    "events": "^1.1.0",
+    "react-native": "^0.20.0",
+    "readable-stream": "^1.0.33",
+    "rn-nodeify": "^4.1.1",
+    "stream-browserify": "^1.0.0",
+    "through": "^2.3.8"
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify"
+  }
+}
