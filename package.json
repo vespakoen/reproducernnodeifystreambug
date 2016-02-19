@@ -16,7 +16,7 @@
     "react-native-randombytes": "^1.0.1",
     "readable-stream": "^1.0.33",
     "rn-nodeify": "^4.1.1",
-    "schema-mapper-store": "git+https://github.com/schema-mapper/store.git",
+    "schema-mapper-store": "git+https://github.com/schema-mapper/store.git#master",
     "stream-browserify": "^1.0.0",
     "through": "^2.3.8"
   },
