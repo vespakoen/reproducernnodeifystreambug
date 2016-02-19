@@ -12,8 +12,8 @@ import React, {
 } from 'react-native';
 
 import 'rn-nodeify/shim';
-// import through from 'through';
-import JSONStream from 'JSONStream'; // it depends on through
+import LocalStore from 'schema-mapper-store';
+console.log(LocalStore.create('testing'));
 
 class reproducernnodeifystreambug extends Component {
   render() {
