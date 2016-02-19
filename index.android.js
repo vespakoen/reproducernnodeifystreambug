@@ -12,7 +12,8 @@ import React, {
 } from 'react-native';
 
 import 'rn-nodeify/shim';
-import through from 'through';
+// import through from 'through';
+import JSONStream from 'JSONStream'; // it depends on through
 
 class reproducernnodeifystreambug extends Component {
   render() {
